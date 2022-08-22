@@ -32,8 +32,9 @@ router.use((req, res, next) => {
 router.use(generatorRoutes); 
 
 //MONGOOSE
+//CHECK EMAIL FOR PASSWORD
 try {
-    mongoose.connect("mongodb+srv://afn1988:"+encodeURIComponent('@V3iro#2021')+"@cluster0.ubwap.mongodb.net/Home") 
+    mongoose.connect("mongodb+srv://afn1988:"+encodeURIComponent('#####')+"@cluster0.ubwap.mongodb.net/Home") 
 } catch (error) {
     console.log("MONGOOSE CONNECTION FAILED [ERROR] ["+error+"]")
 }
